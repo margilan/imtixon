@@ -7,6 +7,7 @@ import insta from '../../assets/insta.svg'
 import feec from '../../assets/feecbook.svg'
 import twiter from '../../assets/twiter.svg'
 import two from '../../assets/uch.png'
+import kal from "../../assets/ADD.png";
 import './index.css'
 import { useNavigate } from 'react-router-dom';
 
@@ -17,6 +18,9 @@ function Speakrs() {
   function onBoard(){
     navigate('/ADD')
   }
+  function handleNav(){
+    navigate("/ADD")
+  }
   return (
     <>
     <div className="Phones-wrapper">
@@ -26,7 +30,7 @@ function Speakrs() {
       <div className="cardss">
         <div className="one-cardd">
           <div className="img">
-          <img src={kalonka} alt="" />
+          <img src={kal} alt="" />
           </div>
           <div className="texts-phone">
             <div className="text-one">
@@ -58,7 +62,7 @@ function Speakrs() {
             </div>
           </div>
           <div className="btnnn">
-            <button>See product</button>
+          <button onClick={onBoard}>See product</button>
           </div>  
           <div className="img">
           <img src={kalonkaa} alt="" />
@@ -70,21 +74,21 @@ function Speakrs() {
           <img src={two} alt="img" />
           <p>HEADPHONES</p>
           <h2>
-            <a href="../shops">Shops </a>
+          <h2 onClick={handleNav}>Shops </h2>
           </h2>{" "}
         </div>
         <div className="one-card">
           <img src={kalonka} alt="img" />
           <p>SPEAKRS</p>
           <h2>
-            <a href="../shops">Shops </a>
+          <h2 onClick={handleNav}>Shops </h2>
           </h2>{" "}
         </div>
         <div className="one-card">
           <img src={air} alt="img" />
           <p>AIRPODS</p>
           <h2>
-            <a href="../shops">Shops </a>
+          <h2 onClick={handleNav}>Shops </h2>
           </h2>
         </div>
       </div>

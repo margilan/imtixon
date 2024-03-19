@@ -82,6 +82,7 @@ opacity: 0px;
 background: #d87d4a;
 color:white;
 border:none;
+cursor: pointer;
 border-radius: 4px;
 }
 .plus{

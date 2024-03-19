@@ -17,6 +17,10 @@ function Home() {
     navigate('/ADD')
   }
 
+  function handleNav(){
+      navigate("/ADD")
+  }
+
   return (
     <>
       <div className="wraper-all">
@@ -47,21 +51,21 @@ function Home() {
           <img src={naushnik} alt="img" />
           <p>HEADPHONES</p>
           <h2>
-            <a href="../shops">Shops </a>
+          <h2 onClick={handleNav}>Shops </h2>
           </h2>{" "}
         </div>
         <div className="one-card">
           <img src={kalonka} alt="img" />
           <p>SPEAKRS</p>
           <h2>
-            <a href="../shops">Shops </a>
+          <h2 onClick={handleNav}>Shops </h2>
           </h2>{" "}
         </div>
         <div className="one-card">
           <img src={air} alt="img" />
           <p>AIRPODS</p>
           <h2>
-            <a href="../shops">Shops </a>
+          <h2 onClick={handleNav}>Shops </h2>
           </h2>
         </div>
       </div>

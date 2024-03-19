@@ -5,6 +5,7 @@ import boy from "../../assets/akaxo.png";
 import insta from '../../assets/insta.svg'
 import feec from '../../assets/feecbook.svg'
 import twiter from '../../assets/twiter.svg'
+import { useNavigate } from "react-router-dom";
 
 
 function ADD() {
@@ -20,6 +21,11 @@ function ADD() {
   const handlePlusClick = () => {
     setQuantity(quantity + 1);
   };
+
+    const navigate = useNavigate()
+  function handleNAvigate(){
+    navigate('/about')
+  }
 
   return (
     <>
@@ -51,7 +57,7 @@ function ADD() {
               <button className="minus" onClick={handleMinusClick}>-</button> {quantity}{" "}
               <button className="plus" onClick={handlePlusClick}>+</button>
             </button>
-            <button className="ADD-btn">ADD TO CART</button>
+            <button className="ADD-btn" onClick ={handleNAvigate}>ADD TO CART</button>
           </div>
         </div>
    
