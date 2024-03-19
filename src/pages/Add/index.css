@@ -1,0 +1,98 @@
+.wraper-all h1 {
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.img img {
+  width: 540px;
+  height: 560px;
+  top: 257px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+}
+.container {
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  gap: 124px;
+  margin-left: 165px;
+}
+.add-text h2 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.12px;
+  letter-spacing: 10px;
+  text-align: left;
+  color: #d87d4a;
+  margin-bottom: 16px;
+}
+.name {
+  font-family: Manrope;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.4285714626312256px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.desk h3 {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin-bottom: 32px;
+  opacity: 80%;
+}
+.price h2 {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.59px;
+  letter-spacing: 1.2857142686843872px;
+  text-align: left;
+  margin-bottom: 47px;
+}
+.price-btn {
+  width: 120px;
+  height: 48px;
+  top: 359px;
+  left: 0.5px;
+  gap: 0px;
+  opacity: 0px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius:4px;
+}
+.btns{
+    display: flex;
+    gap: 16px;
+}
+
+.ADD-btn{
+    width: 160px;
+height: 48px;
+top: 359px;
+left: 136.5px;
+gap: 0px;
+opacity: 0px;
+background: #d87d4a;
+color:white;
+border:none;
+border-radius: 4px;
+}
+.plus{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+.minus{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 25px;
+}
